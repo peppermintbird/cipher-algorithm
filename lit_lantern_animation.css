@@ -1,0 +1,22 @@
+.glowing-lantern {
+    width: 80px; /* Adjust the size*/
+    height: 80px;
+    border-radius: 70%;
+    animation: flicker 3s infinite alternate;
+    position: absolute;
+    top: 50px; /* Adjust the vertical position */
+    left: 40px;
+}
+
+@keyframes flicker {
+            0%, 100% {
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+                transform: scale(1);
+            }
+            50% {
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+                transform: scale(1.1);
+            }
+        }
+
+        

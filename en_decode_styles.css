@@ -1,0 +1,122 @@
+
+
+/*kinda messy*/
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+    #container {
+        background-color: rgba(0, 0, 50, 0.6);
+        padding: 20px 20px 20px 20px;
+        border-radius: 10px;
+        text-align: left;
+        box-shadow: 0 4px 10px rgba(182, 181, 181, 0.2);
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+
+        .button-container {
+            margin-top: 10px;
+            text-align: center;
+        }
+            
+        shimmer {
+            border-radius: 10px; 
+            animation: shimmer 10s infinite;
+            transition: border-color 0.5s ease-in-out;
+            }  
+
+            h2 {
+            color: #FBE9E7;
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: 300;
+            text-align: center;
+            font-family: "Shippori Mincho", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        textarea {
+            width: 80%;
+            height: 20%;
+            padding: 10px;
+            border: 2px solid #00194f;
+            border-radius: 10px;
+            color: #eee9e9;
+            background-color: rgba(255, 255, 255, 0.1);
+            resize: none;
+            font-size: 16px;
+            outline: none;
+            margin-bottom: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            font-family: "Shippori Mincho", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        output {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #00194f;
+            border-radius: 5px;
+            color: #fff;
+            background-color: rgba(255, 255, 255, 0.1);
+            font-size: 20px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            box-align: center;
+        }
+
+            input {
+                width: 100%;
+                display: flex;
+                box-align: center;
+                margin: 0;
+                align-items: center;
+                justify-content: center;
+            
+        }
+
+
+    shippori-mincho-regular {
+        font-family: "Shippori Mincho", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #FBE9E7;
+    }
+
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        color: #90A4AE;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #455A64;
+        transition: background-color 0.3s ease, border-color 0.3s ease;
+        box-shadow: 4px 4px 4px rgba(83, 79, 79, 0.2);
+        margin-left: 20px;
+        margin-top: 2px;
+        margin-bottom: 25px;
+    }
+
+    button:hover {
+        background-color: #607D8B;
+    }
+

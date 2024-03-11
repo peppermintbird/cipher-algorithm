@@ -1,0 +1,57 @@
+
+.social-buttons {
+    position: absolute;
+    bottom: 78%;
+    left: 80%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    animation: parallax 5s infinite alternate;
+  }
+
+  .social-button-circle {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    clip-path: circle(50%);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  .social-button-circle:hover {
+    background: rgba(255, 255, 255, 0.8);
+    }
+  .social-icon {
+    color: #fff;
+    font-size: 24px;
+    }
+  .content {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    }
+  @keyframes parallax {
+    from {
+      transform: translateY(0);
+      }
+    to {
+      transform: translateY(-50px);
+      }
+    }
+
+
+  .spotify-playlist {
+    position: absolute;
+    bottom: 30%;
+    left: 75%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 40%;
+    opacity: 0.7;
+    animation: parallax 5s infinite alternate;
+  }

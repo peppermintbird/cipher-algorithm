@@ -1,0 +1,7 @@
+/* mobile responsiveness!!! */
+  @media screen and (max-width: 600px) {
+    .header {
+    flex-direction: column;
+    align-items: stretch;
+    }
+  }
