@@ -23,5 +23,9 @@ jobs:
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         slug: peppermintbird/alura-one-challenge-text-decoder
+        flags: smart-tests
+        verbose: true
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
 
