@@ -16,8 +16,9 @@ Night Decoder File Structure
 |   |-- index.html
 |
 |-- assets
-|   |-- alura_challenge_icon_one.xml
-|   |-- favicon_lit_lantern
+|   |-- codepen_icon.xml
+|   |-- favicon_lit_lantern.ico
+|   |-- normal-unlit-lantern
 |
 |-- documentation
 |   |-- (My Python model for the Caesar Cipher decoder)
