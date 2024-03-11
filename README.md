@@ -1,5 +1,5 @@
 ## Text Decoder Challenge - Alura + Oracle
-[![codecov](https://codecov.io/gh/peppermintbird/alura-one-challenge-text-decoder/graph/badge.svg?token=U1JFF28DUH)](https://codecov.io/gh/peppermintbird/alura-one-challenge-text-decoder) [![Oracle Next Education](https://img.shields.io/badge/Oracle-Next%20Education-deepgray?style=flat&logo=oracle&logoColor=white)](https://www.oracle.com/br/education/oracle-next-education/)
+[![Oracle Next Education](https://img.shields.io/badge/Oracle-Next%20Education-deepgray?style=flat&logo=oracle&logoColor=white)](https://www.oracle.com/br/education/oracle-next-education/)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpeppermintbird%2Falura-one-challenge-text-decoder.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeppermintbird%2Falura-one-challenge-text-decoder?ref=badge_shield) [![Jekyll site CI](https://github.com/peppermintbird/alura-one-challenge-text-decoder/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/peppermintbird/alura-one-challenge-text-decoder/actions/workflows/jekyll-docker.yml)
 
 
