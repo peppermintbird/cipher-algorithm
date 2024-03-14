@@ -22,9 +22,9 @@ Night Cipher is inspired in Caesar's Cipher of a shift of 3 (which I used to wri
 In the case of a shift of 3, each letter is replaced by the letter three positions down the alphabet. For example:
 
  
-  <h6>⊷ ⒈ Plaintext: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h6>  
+  ⊷ ⒈ Plaintext: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
  
-  <h6>⊶ ⒉ Ciphertext: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C</h6>  
+  ⊶ ⒉ Ciphertext: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C 
 
  The encrypting system of Night Cipher inherits the core idea of substitution from Caesar's Cipher. In Caesar's Cipher, each letter in the plaintext is shifted by a fixed number of positions in the alphabet. In Night Cipher, however, the position of a letter is assigned by its location in a container represented by a symbol. 
   
