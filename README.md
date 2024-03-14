@@ -90,7 +90,7 @@ or
 
 > こんにちは、世界！(Japanese) 
 
-<h5> ⇢　✕　I'll get an error message.</h5>
+ ✕　I'll get an error message.
 
 
 ### Curiosity
