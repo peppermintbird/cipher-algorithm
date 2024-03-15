@@ -2,10 +2,10 @@
   <img style = "width: 9%;" src="https://github.com/peppermintbird/alura-one-challenge-text-decoder/assets/148541376/7a70e5b1-2217-4718-b47e-01f3bbc4b133">
 
 
-## Text Decoder Challenge - Alura + Oracle
+## Text ecryption with Caesar's Cipher and symbolic algorithm
 
-[![Oracle Next Education](https://img.shields.io/badge/Oracle-Next%20Education-deepgray?style=flat&logo=oracle&logoColor=white)](https://www.oracle.com/br/education/oracle-next-education/)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpeppermintbird%2Falura-one-challenge-text-decoder.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeppermintbird%2Falura-one-challenge-text-decoder?ref=badge_shield) [![Jekyll site CI](https://github.com/peppermintbird/alura-one-challenge-text-decoder/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/peppermintbird/alura-one-challenge-text-decoder/actions/workflows/jekyll-docker.yml)
+
+
 </div>
 
 
@@ -17,14 +17,14 @@
 Night Cipher works with two main steps. First a word is encrypted with Caesar's Cipher and then translated into symbols and positions represented by numbers using a symbol system that I explain further on.
 
   ### 🔻 The Caesar's Cipher
-Night Cipher is inspired in Caesar's Cipher of a shift of 3 (which I used to write a decoder disponible in [Codepen](https://codepen.io/peppermintbird/pen/WNWrymO)). Caesar's Cipher is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet. 
+Night Cipher is inspired in Caesar's Cipher of a shift of 3 (which I used to write a decoder disponible in [Codepen](https://codepen.io/peppermintbird/pen/WNWrymO) inspired on [freeCodeCamp's Caesar's Cipher tutorial](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher), though I didn't ROT13, which has a shift of... well, 13). Caesar's Cipher is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet. 
               
 In the case of a shift of 3, each letter is replaced by the letter three positions down the alphabet. For example:
 
  
-  ⊷ ⒈ Plaintext: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+  ⊷ Plaintext: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
  
-  ⊶ ⒉ Ciphertext: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C 
+  ⊶ Ciphertext: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C 
 
  The encrypting system of Night Cipher inherits the core idea of substitution from Caesar's Cipher. In Caesar's Cipher, each letter in the plaintext is shifted by a fixed number of positions in the alphabet. In Night Cipher, however, the position of a letter is assigned by its location in a container represented by a symbol. 
   
@@ -64,7 +64,7 @@ We began by defining a function to encrypt text using a custom encryption logic 
 
 ### Examples
 
-No especial characters or space is supported, so you can use an underscore to add space. You will notice that the length of the words duplicate using this symbol system.
+No especial characters or space is supported, so you can use an underscore to add space.
 
 🔓 **Original**
 > "Hello_world"
@@ -95,9 +95,8 @@ or
 
 ### Curiosity
 
-For those wondering why I put a Spotify playlist on the page, it was because I wrote the main code on a midnight sprint since I couldn't sleep. Afterwards, I just enjoyed listening to it while revising the code, so I let it stay. 
+There are some Easter eggs in the code. Some words can be encrypted as drawings.  
 
 ### License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpeppermintbird%2Falura-one-challenge-text-decoder.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeppermintbird%2Falura-one-challenge-text-decoder?ref=badge_large)
 
-### CC License
+
