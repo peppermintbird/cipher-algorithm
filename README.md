@@ -1,5 +1,5 @@
 <div align = center>
-  <img style = "width: 9%;" src="https://github.com/peppermintbird/alura-one-challenge-text-decoder/assets/148541376/7a70e5b1-2217-4718-b47e-01f3bbc4b133">
+  <div><h1>⚗️</h1></div>
 
 
 ## Text ecryption with Caesar's Cipher and symbolic algorithm
