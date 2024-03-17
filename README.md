@@ -17,7 +17,7 @@
 Night Cipher works with two main steps. First a word is encrypted with Caesar's Cipher and then translated into symbols and positions represented by numbers using a symbol system that I explain further on.
 
   ### 🔻 The Caesar's Cipher
-Night Cipher is inspired in Caesar's Cipher of a shift of 3 (which I used to write a decoder disponible in [Codepen](https://codepen.io/peppermintbird/pen/WNWrymO) inspired on [freeCodeCamp's Caesar's Cipher tutorial](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher), though I didn't ROT13, which has a shift of... well, 13). Caesar's Cipher is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet. 
+Night Cipher is inspired in Caesar's Cipher of a shift of 3 (which I used to write a decoder disponible in [Codepen](https://codepen.io/peppermintbird/pen/WNWrymO) inspired on [freeCodeCamp's Caesar's Cipher tutorial](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher), though I didn't use ROT13, which has a shift of... well, 13). Caesar's Cipher is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet. 
               
 In the case of a shift of 3, each letter is replaced by the letter three positions down the alphabet. For example:
 
@@ -90,12 +90,12 @@ or
 
 > こんにちは、世界！(Japanese) 
 
- ✕　I'll get an error message.
+ ✕　I should get an error message.
 
 
 ### Curiosity
 
-There are some Easter eggs in the code. Some words can be encrypted as drawings.  
+As if this encoder wasn't weird enough, there are some Easter eggs in the code. Some words can be encrypted as drawings <i>or songs</i>.  
 
 ### License
 
