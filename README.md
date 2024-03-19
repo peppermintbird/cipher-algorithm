@@ -92,8 +92,8 @@ or
 
  ✕　I should get an error message.
 
-- Another incosistency on the encryption algorithm is its length. Obviously, the duplication of each character is proportional to the storage space.
-    - Inspired by run-length enconding, I tried another approach to compress the characters. Run-length enconding can be used, for example, to sparse the sequence "AAAABBBCCDAA", which can be compressed to "4A3B2C1D2A". It is commonly used in scenarios where there are long runs of repeated data values, such as in image compression or text compression algorithms. 
+- Another inconsistency in the encryption algorithm is its length. Obviously, the duplication of each character is proportional to the storage space.
+    - Inspired by run-length encoding, I tried another approach to compress the characters. Run-length enconding can be used, for example, to sparse the sequence "AAAABBBCCDAA", which can be compressed to "4A3B2C1D2A". It is commonly used in scenarios where there are long runs of repeated data values, such as in image compression or text compression algorithms. 
 
 ### Curiosity
 
