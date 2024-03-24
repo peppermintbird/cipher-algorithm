@@ -1,13 +1,12 @@
 <div align = center>
   <h1>
    <div>⚗️</div><br>
-    Text ecryption with Caesar's Cipher and symbolic algorithm
+    Text ecryption with phonemic cipher and symbolic algorithm
   </h1>
 </div>
 
 
 
-<strong>A very simple text encrypter using Caesar's Cipher (with a shift of 3) and a symbolic encryption algorithm.</strong>
 
 ### How it works
 
