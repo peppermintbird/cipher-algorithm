@@ -1,11 +1,8 @@
 <div align = center>
-  <div><h1>⚗️</h1></div>
-
-
-## Text ecryption with Caesar's Cipher and symbolic algorithm
-
-
-
+  <h1>
+   <div>⚗️</div><br>
+    Text ecryption with Caesar's Cipher and symbolic algorithm
+  </h1>
 </div>
 
 
