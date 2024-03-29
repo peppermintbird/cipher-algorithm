@@ -5,14 +5,13 @@
   </h1>
 </div>
 
-
-
+> ❕ Under development 
 
 ### How it works
 
 Night Cipher works with two main steps. First a word is encrypted with Caesar's Cipher and then translated into symbols and positions represented by numbers using a symbol system that I explain further on.
 
-  ### 🔻 The Caesar's Cipher
+  #### The Caesar's Cipher
 Night Cipher is inspired in Caesar's Cipher of a shift of 3 (which I used to write a decoder disponible in [Codepen](https://codepen.io/peppermintbird/pen/WNWrymO) inspired on [freeCodeCamp's Caesar's Cipher tutorial](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher), though I didn't use ROT13, which has a shift of... well, 13). Caesar's Cipher is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet. 
               
 In the case of a shift of 3, each letter is replaced by the letter three positions down the alphabet. For example:
@@ -25,7 +24,7 @@ In the case of a shift of 3, each letter is replaced by the letter three positio
  The encrypting system of Night Cipher inherits the core idea of substitution from Caesar's Cipher. In Caesar's Cipher, each letter in the plaintext is shifted by a fixed number of positions in the alphabet. In Night Cipher, however, the position of a letter is assigned by its location in a container represented by a symbol. 
   
 
-  ### 🔻The symbol system
+  #### The symbol system
 
  In this system, each batch of three letters (e.g., ABC, DEF...), being Y Z the exception, is defined as a container, which in turn is represented by a symbol. 
 
@@ -37,8 +36,7 @@ The symbols are disposed as follows,
 
 <img style="width: 14%" src="https://github.com/peppermintbird/alura-one-challenge-text-decoder/assets/148541376/03b01b1e-2f21-442c-8edf-13587158db78">
 
-
-<h1> </h1>
+---
 
 We began by defining a function to encrypt text using a custom encryption logic which maps each letter in its symbol container and the corresponding symbol. Below, we have a character (e.g., 'A', 'B', 'C'...) defined by an array. The first element of this array represents the position and the second element represents the symbol associated with the character.
 
@@ -58,7 +56,7 @@ We began by defining a function to encrypt text using a custom encryption logic 
         .
 
 
-### Examples
+#### Examples
 
 No especial characters or space is supported, so you can use an underscore to add space.
 
