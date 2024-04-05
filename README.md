@@ -54,6 +54,6 @@ Despite its functionality, Night Cipher has some issues that need to be addresse
     - An alternative approach, inspired by run-length encoding, could potentially address this issue by compressing repetitive sequences of characters.
 
 
-### License
+
 
 
