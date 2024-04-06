@@ -9,22 +9,12 @@
 
 ### How it works
 
-Night Cipher works with two main steps. First a word is encrypted with Caesar's Cipher and then translated into symbols and positions represented by numbers using a symbol system that I explain further on.
+Night Cipher works as the input word is phonemically encoded and then translated into symbols and positions represented by numbers using a symbol system that I explain further on.
 
-  #### The Caesar's Cipher
-Night Cipher is inspired in Caesar's Cipher of a shift of 3 (which I used to write a decoder disponible in [Codepen](https://codepen.io/peppermintbird/pen/WNWrymO) inspired on [freeCodeCamp's Caesar's Cipher tutorial](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher), though I didn't use ROT13, which has a shift of... well, 13). Caesar's Cipher is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet. 
-              
-In the case of a shift of 3, each letter is replaced by the letter three positions down the alphabet. For example:
+The encrypting system of Night Cipher inherits the core idea of substitution from Caesar's Cipher. In Caesar's Cipher, each letter in the plaintext is shifted by a fixed number of positions in the alphabet. In Night Cipher, however, the position of a letter is assigned by its location in a container represented by a symbol. 
 
- 
-  ⊷ Plaintext: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
- 
-  ⊶ Ciphertext: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C 
-
- The encrypting system of Night Cipher inherits the core idea of substitution from Caesar's Cipher. In Caesar's Cipher, each letter in the plaintext is shifted by a fixed number of positions in the alphabet. In Night Cipher, however, the position of a letter is assigned by its location in a container represented by a symbol. 
   
-
-  #### The symbol system
+#### The symbol system
 
  In this system, each batch of three letters (e.g., ABC, DEF...), being Y Z the exception, is defined as a container, which in turn is represented by a symbol. 
 
@@ -56,45 +46,14 @@ We began by defining a function to encrypt text using a custom encryption logic 
         .
 
 
-#### Examples
+#### Problems
+Despite its functionality, Night Cipher has some issues that need to be addressed:
 
-No especial characters or space is supported, so you can use an underscore to add space.
-
-🔓 **Original**
-> "Hello_world"
-
-> "Easy_as_childbirth" - _Finn the human_
-
-> "Dont_let_the_dragon_drag_on_man" - _Jake the dog_
-
-🔐 **Encrypted**
-> 2$2#3%3%3¨2#2(3¨3&3%1#
-
-> 2#1@1*2!2#1@1*2#3@2$3$3%1#2@3$3&2*2$
-
-> 1#3¨2¨2*2#3%2#2*2#2*2$2#2#1#3&1@1$3¨2¨2#1#3&1@1$2#3¨2¨2#1¨1@2¨
-
-### Problems
-
-- The downside of this algorithm is that it was first designed for the English alphabet. It assumes that the input message consists of characters from the English alphabet (A-Z) and may not work properly with messages containing characters from other languages or non-alphabetic characters. If I try to type,
-
-> Olá, mundo! (Brazilian Portuguese)
-
-or
-
-> こんにちは、世界！(Japanese) 
-
- ✕　I should get an error message.
-
-- Another inconsistency in the encryption algorithm is its length. Obviously, the duplication of each character is proportional to the storage space.
-    - Inspired by run-length encoding, I tried another approach to compress the characters. Run-length enconding can be used, for example, to sparse the sequence "AAAABBBCCDAA", which can be compressed to "4A3B2C1D2A". It is commonly used in scenarios where there are long runs of repeated data values, such as in image compression or text compression algorithms. 
-
-### Curiosity
-
-As if this encoder wasn't weird enough, there are some Easter eggs in the code. Some words can be encrypted as drawings <i>or songs</i>.  
+- It was first designed for the English alphabet, so it may not work properly with characters from other languages or non-alphabetic characters.
+- The encryption algorithm's length can be inconsistent and inefficient, especially with duplication of characters.
+    - An alternative approach, inspired by run-length encoding, could potentially address this issue by compressing repetitive sequences of characters.
 
 
 
-### License
 
 
