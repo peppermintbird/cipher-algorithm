@@ -3,7 +3,7 @@
    <div>⚗️</div><br>
     Text ecryption with phonemic cipher and symbolic algorithm
   </h1>
-</div>
+</div> 
 
 > 🚧  Under development 
 
